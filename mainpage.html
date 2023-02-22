@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>북플릭스 책 고르는 화면</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+
+        hr {
+            background-color: sienna;
+            height: 10px;
+        }
+
+        summary {
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        li {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .rating img {
+            transition: all 0.2s linear;
+        }
+
+        .rating:hover img {
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<script>
+    function zoomIn(event) {
+        event.target.style.width = "343px";
+        event.target.style.height = "514px";
+        event.target.style.transition = "all 0.5s";
+    }
+
+    function zoomOut(event) {
+        event.target.style.width = "229px";
+        event.target.style.height = "343px";
+        event.target.style.transition = "all 0.5s";
+    }
+</script>
+<hr>
+<header>
+    <h1>추천해줘-북플릭스</h1>
+    <hr>
+</header>
+<nav>
+    <ol>
+        <li><a href="#content1">연간 베스트 셀러</a></li>
+        <li><a href="#content2">평점순 베스트 셀러 Top 10</a></li>
+        <li><a href="#content3">리뷰순 베스트 셀러 Top 10</a></li>
+    </ol>
+</nav>
+<hr>
+
+<body style="padding: 3px 100px 3px 100px;">
+    <article>
+        <table>
+            <caption>
+                <h2 id="content1">연간 베스트 셀러</h2>
+            </caption>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="detailpage.html#1" target="_blank">
+                            <img title="달러구트 꿈 편의점" src="images/1.jpg" alt="연간 베스트셀러 1등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#2" target="_blank">
+                            <img title="주린이가 알고싶어하는 질문 TOP77" src="images/2.jpg" alt="연간 베스트셀러 2등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#3" target="_blank">
+                            <img title="미드나잇 라이브러리" src="images/3.jpg" alt="연간 베스트셀러 3등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#4" target="_blank">
+                            <img title="조국의 시간" src="images/4.jpg" alt="연간 베스트셀러 4등 도서입니다" width="229px" height="343px"
+                                onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#5" target="_blank">
+                            <img title="소크라테스 익스프레스" src="images/5.jpg" alt="연간 베스트셀러 5등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#6" target="_blank">
+                            <img title="공정하다는 착각" src="images/6.jpg" alt="연간 베스트셀러 6등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+
+
+
+                    <td>
+                        <a href="detailpage.html#7" target="_blank">
+                            <img title="2030 축의 전환" src="images/7.jpg" alt="연간 베스트셀러 7등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#8" target="_blank">
+                            <img title="달러구트 꿈 백화점 2(레인보우 에디션)" src="images/8.jpg" alt="연간 베스트셀러 8등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#9" target="_blank">
+                            <img title="완전한 행복" src="images/9.jpg" alt="연간 베스트셀러 9등 도서입니다" width="229px" height="343px"
+                                onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#10" target="_blank">
+                            <img title="해커스 토익 기출보카 TOEIC VOCA(토익보카) 단어장" src="images/10.jpg" alt="연간 베스트셀러 10등 도서입니다"
+                                width="229px" height="343px" onmouseenter="zoomIn(event)"
+                                onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#11" target="_blank">
+                            <img title="아몬드" src="images/11.jpg" alt="연간 베스트셀러 11등 도서입니다" width="229px" height="343px"
+                                onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#12" target="_blank">
+                            <img title="어떻게 말해줘야 할까" src="images/12.jpg" alt="연간 베스트셀러 12등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="detailpage.html#13" target="_blank">
+                            <img title="부자 아빠 가난한 아빠 1(20주년 특별 기념판)" src="images/13.jpg" alt="연간 베스트셀러 13등 도서입니다"
+                                width="229px" height="343px" onmouseenter="zoomIn(event)"
+                                onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="detailpage.html#14" target="_blank">
+                            <img title="오늘 밤, 세계에서 이 사랑이 사라진다 해도" src="images/14.jpg" alt="연간 베스트셀러 14등 도서입니다"
+                                width="229px" height="343px" onmouseenter="zoomIn(event)"
+                                onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#15" target="_blank">
+                            <img title="돈의 속성(200쇄 리커버에디션)" src="images/15.jpg" alt="연간 베스트셀러 15등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#16" target="_blank">
+                            <img title="트렌드 코리아 2022" src="images/16.jpg" alt="연간 베스트셀러 16등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#17" target="_blank">
+                            <img title="질서 너머" src="images/17.jpg" alt="연간 베스트셀러 17등 도서입니다" width="229px" height="343px"
+                                onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#18" target="_blank">
+                            <img title="주식투자 무작정 따라하기(2020)" src="images/18.jpg" alt="연간 베스트셀러 18등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="detailpage.html#19" target="_blank">
+                            <img title="작은 별이지만 빛나고 있어(20만 부 기념 한정판 에디션)" src="images/19.jpg" alt="연간 베스트셀러 19등 도서입니다"
+                                width="229px" height="343px" onmouseenter="zoomIn(event)"
+                                onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="detailpage.html#20" target="_blank">
+                            <img title="흔한남매 7" src="images/20.jpg" alt="연간 베스트셀러 20등 도서입니다" width="229px"
+                                height="343px" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" />
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <details open>
+            <summary id="content2">평점순 베스트 셀러 Top 10</summary>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#1" target="_blank"><img src="images/r1.jpg" width="229"
+                                        height="343" title="제로 투 원(리커버 에디션)" alt=" 평점 1등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#2" target="_blank"><img src="images/r2.jpg" width="229"
+                                        height="343" title="양순이네 떡집" alt="평점 2등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#3" target="_blank"><img src="images/r3.jpg" width="229"
+                                        height="343" title="130층 나무 집" alt="평점 3등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#4" target="_blank"><img src="images/r4.jpg" width="229"
+                                        height="343" title="나의 첫 투자 수업 1: 마인드편" alt="평점 4등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#5" target="_blank"><img src="images/r5.jpg" width="229"
+                                        height="343" title="긴긴밤" alt="평점 5등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#6" target="_blank"><img src="images/r6.jpg" width="229"
+                                        height="343" title="나는 나무처럼 살고 싶다(10만 부 기념 스페셜 에디션)" alt="평점 6등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#7" target="_blank"><img src="images/r7.jpg" width="229"
+                                        height="343" title="수학 잘하는 아이는 이렇게 공부합니다" alt="평점 7등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#8" target="_blank"><img src="images/r8.jpg" width="229"
+                                        height="343" title="세금 내는 아이들" alt="평점 8등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#9" target="_blank"><img src="images/r9.jpg" width="229"
+                                        height="343" title="설민석의 한국사 대모험 16" alt="평점 9등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#10" target="_blank"><img src="images/r10.jpg" width="229"
+                                        height="343" title="10. 추리 천재 엉덩이 탐정 10: 사랑의 포로 사건" alt="평점 10등 도서입니다"></a>
+                            </div>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+        </details>
+
+        <details open>
+            <summary id="content3">리뷰순 베스트 셀러 Top 10</summary>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#1" target="_blank"><img src="images/p1.jpg" width="229"
+                                        height="343" title="제로 투 원(리커버 에디션)" alt=" 평점 1등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#2" target="_blank"><img src="images/p2.jpg" width="229"
+                                        height="343" title="양순이네 떡집" alt="평점 2등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#3" target="_blank"><img src="images/p3.jpg" width="229"
+                                        height="343" title="130층 나무 집" alt="평점 3등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#4" target="_blank"><img src="images/p4.jpg" width="229"
+                                        height="343" title="나의 첫 투자 수업 1: 마인드편" alt="평점 4등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#5" target="_blank"><img src="images/p5.jpg" width="229"
+                                        height="343" title="긴긴밤" alt="평점 5등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#6" target="_blank"><img src="images/p6.jpg" width="229"
+                                        height="343" title="나는 나무처럼 살고 싶다(10만 부 기념 스페셜 에디션)" alt="평점 6등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#7" target="_blank"><img src="images/p7.jpg" width="229"
+                                        height="343" title="수학 잘하는 아이는 이렇게 공부합니다" alt="평점 7등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#8" target="_blank"><img src="images/p8.jpg" width="229"
+                                        height="343" title="세금 내는 아이들" alt="평점 8등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#9" target="_blank"><img src="images/p9.jpg" width="229"
+                                        height="343" title="설민석의 한국사 대모험 16" alt="평점 9등 도서입니다"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <a href="reviewpage.html#10" target="_blank"><img src="images/p10.jpg" width="229"
+                                        height="343" title="10. 추리 천재 엉덩이 탐정 10: 사랑의 포로 사건" alt="평점 10등 도서입니다"></a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            </details>
+    </article>
+
+    <p>Copyright 2022 by 김경준,최승훈</p>
+</body>
+
+</html>
